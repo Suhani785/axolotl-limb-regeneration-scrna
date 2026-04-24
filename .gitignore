@@ -1,0 +1,30 @@
+# Large bioinformatics files
+*.rds
+*.RData
+*.h5
+*.h5ad
+*.loom
+*.fastq
+*.fq
+*.bam
+*.sam
+*.vcf
+
+# Seurat / analysis objects
+results/*.rds
+data/*.rds
+
+# R environment
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
