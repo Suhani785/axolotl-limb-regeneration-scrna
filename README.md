@@ -6,6 +6,13 @@ This project investigates transcriptional dynamics during axolotl limb regenerat
 
 ---
 
+## Highlights
+- 22 cell populations identified from integrated scRNA-seq dataset 
+- Fibroblast trajectory reconstructed using Monocle3 pseudotime 
+- Dynamic genes driving regeneration identified using graph_test() 
+ 
+---
+
 ## Objective
 
 The goal of this project is to:
