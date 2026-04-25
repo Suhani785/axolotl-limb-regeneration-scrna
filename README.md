@@ -87,20 +87,19 @@ or reconstruct it from the original raw data using the published pipeline.
 ## Key Visualizations
 
 ### UMAP Clustering
-![UMAP](results/figures/umap_clusters_res0.6.png)
+![UMAP](results/figures/umap_clusters.png)
 
 ### Annotated Cell Types
-![Annotated UMAP](results/figures/umap_annotated_clean_v2.png)
+![Annotated UMAP](results/figures/umap_annotated.png)
 
 ### Fibroblast Trajectory
 ![Trajectory](results/figures/trajectory_by_cluster.png)
 
 ### Pseudotime Progression
-![Pseudotime](results/figures/pseudotime_plot.png)
+![Pseudotime](results/figures/pseudotime.png)
 
 ### Top Dynamic Genes
-![Gene Expression](results/figures/top_genes_expression.png)
-
+![Gene Expression](results/figures/top_genes.png)
 ---
 
 ## Repository Structure
