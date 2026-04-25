@@ -7,6 +7,7 @@ This project investigates transcriptional dynamics during axolotl limb regenerat
 ---
 
 ## Highlights
+
 - 22 cell populations identified from integrated scRNA-seq dataset 
 - Fibroblast trajectory reconstructed using Monocle3 pseudotime 
 - Dynamic genes driving regeneration identified using graph_test() 
@@ -33,6 +34,17 @@ all_integrated.rds
 
 Due to file size limitations, the dataset is not included in this repository.
 
+The dataset is derived from previously published axolotl limb regeneration single-cell RNA-seq studies.
+
+**Data Source:**
+- Li et al., 2021 – Single-cell analysis of axolotl limb regeneration
+- Integrated dataset provided in processed Seurat format
+
+Users should place the dataset in:
+
+data/all_integrated.rds
+
+or reconstruct it from the original raw data using the published pipeline.
 ---
 
 ## Methods
@@ -93,26 +105,30 @@ Due to file size limitations, the dataset is not included in this repository.
 
 ## Repository Structure
 
-scripts/        Analysis scripts  
-results/        Figures and tables  
-data/           Data instructions  
-docs/           Supporting notes  
-environment/    Reproducibility info  
+scripts/        Analysis scripts
+results/        Figures and tables 
+data/           Data instruction 
+docs/           Supporting notes
+environment/    Reproducibility info 
 
 ---
 
 ## How to Reproduce
 
-1. Place input file:
+### 1. Data setup
+
+Place the input Seurat object in:
 
 data/all_integrated.rds
 
-2. Run scripts in order:
+If the file is not available, users may reconstruct it from the original dataset described above.
 
-Rscript scripts/01_clustering_seurat.R  
-Rscript scripts/02_annotation.R  
-Rscript scripts/03_trajectory_monocle3.R  
-Rscript scripts/04_dynamic_genes.R  
+### 2. Run analysis pipeline
+
+Rscript scripts/01_clustering_seurat.R
+Rscript scripts/02_annotation.R
+Rscript scripts/03_trajectory_monocle3.R 
+Rscript scripts/04_dynamic_genes.R
 
 ---
 
@@ -127,6 +143,6 @@ Rscript scripts/04_dynamic_genes.R
 
 ## Author
 
-Suhani Patel  
-MS Bioinformatics  
+Suhani Patel
+MS Bioinformatics
 Northeastern University
