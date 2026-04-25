@@ -117,6 +117,7 @@ or reconstruct it from the original raw data using the published pipeline.
 
 ## Repository Structure
 
+```
 axolotl-limb-regeneration-scrna/
 ├── README.md
 ├── .gitignore
@@ -143,6 +144,7 @@ axolotl-limb-regeneration-scrna/
 │   └── (reproducibility information)
 └── docs/
     └── (supporting documentation)
+```
 
 ---
 
