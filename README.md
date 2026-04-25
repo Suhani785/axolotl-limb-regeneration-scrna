@@ -145,3 +145,4 @@ Rscript scripts/04_dynamic_genes.R
 Suhani Patel
 MS Bioinformatics
 Northeastern University
+Contact: patel.suhan@northeastern.edu
