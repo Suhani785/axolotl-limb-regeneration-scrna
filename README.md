@@ -118,38 +118,31 @@ or reconstruct it from the original raw data using the published pipeline.
 ## Repository Structure
 
 axolotl-limb-regeneration-scrna/
-
 ├── README.md
 ├── .gitignore
-
 ├── scripts/
-│ ├── 01_clustering_seurat.R
-│ ├── 02_annotation.R
-│ ├── 03_trajectory_monocle3.R
-│ └── 04_dynamic_genes.R
-
+│   ├── 01_clustering_seurat.R
+│   ├── 02_annotation.R
+│   ├── 03_trajectory_monocle3.R
+│   └── 04_dynamic_genes.R
 ├── results/
-│ ├── figures/
-│ │ ├── umap_clusters.png
-│ │ ├── umap_annotated.png
-│ │ ├── trajectory_by_cluster.png
-│ │ ├── pseudotime.png
-│ │ └── top_genes.png
-│ │
-│ └── tables/
-│ ├── pseudotime_genes_full.csv
-│ ├── top50_pseudotime_genes.csv
-│ ├── pseudotime_values.csv
-│ └── timepoint_cluster_table.csv
-
+│   ├── figures/
+│   │   ├── umap_clusters.png
+│   │   ├── umap_annotated.png
+│   │   ├── trajectory_by_cluster.png
+│   │   ├── pseudotime.png
+│   │   └── top_genes.png
+│   └── tables/
+│       ├── pseudotime_genes_full.csv
+│       ├── top50_pseudotime_genes.csv
+│       ├── pseudotime_values.csv
+│       └── timepoint_cluster_table.csv
 ├── data/
-│ └── README.md
-
+│   └── README.md
 ├── environment/
-│ └── (reproducibility information)
-
+│   └── (reproducibility information)
 └── docs/
-└── (supporting documentation)
+    └── (supporting documentation)
 
 ---
 
